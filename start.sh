@@ -12,13 +12,13 @@ sed -i "s/BIND_PORT/${BIND_PORT:-8888}/g" /root/lkl/haproxy.cfg
 
 export LD_PRELOAD=/root/lkl/liblkl-hijack.so
 export LKL_HIJACK_NET_QDISC="root|fq"
-export LKL_HIJACK_SYSCTL="net.ipv4.tcp_congestion_control=bbr;net.ipv4.tcp_wmem=4096 16384 30000000"
+export LKL_HIJACK_SYSCTL="net.ipv4.tcp_congestion_control=bbr;net.ipv4.tcp_wmem=4096 65536 67108864"
 export LKL_HIJACK_NET_IFTYPE=tap
 export LKL_HIJACK_NET_IFPARAMS=tap0
 export LKL_HIJACK_NET_IP=10.0.0.2
 export LKL_HIJACK_NET_NETMASK_LEN=24
 export LKL_HIJACK_NET_GATEWAY=10.0.0.1
-export LKL_HIJACK_OFFLOAD="0x883"
+export LKL_HIJACK_OFFLOAD="0x8883"
 export LKL_HIJACK_DEBUG=0
 
 haproxy -f /root/lkl/haproxy.cfg
