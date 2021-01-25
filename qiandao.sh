@@ -1,0 +1,15 @@
+curl 'http://www.qz777.com/hack.php?H_name=xqqiandao' \
+  -H 'Connection: keep-alive' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Origin: http://www.qz777.com' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'DNT: 1' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Referer: http://www.qz777.com/hack-htm-H_name=xqqiandao' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'Cookie: 084a2_ck_info=%2F%09; 084a2_threadlog=%2C7%2C10%2C; 084a2_readlog=%2C59219%2C9286%2C59083%2C59218%2C59141%2C59077%2C59238%2C59253%2C59159%2C59720%2C; 084a2_c_stamp=1610157468; 084a2_ipstate=1611468733; 084a2_winduser=XlYBAgYxVlwCXgVfXVIECgoAUQJXBAUAAAcOU1cLCgEEAApdVlQ6; 084a2_ol_offset=3008; 084a2_lastpos=other; 084a2_lastvisit=49%091611468791%09%2Fhack.php%3FH_namexqqiandao' \
+  --data-raw 'action=qiandao&qdxq=1&toflower=&tozhufu=' \
+  --compressed \
+  --insecure >> $(date +%F).html
