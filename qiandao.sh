@@ -12,4 +12,4 @@ curl 'http://www.qz777.com/hack.php?H_name=xqqiandao' \
   -H 'Cookie: 084a2_ck_info=%2F%09; 084a2_threadlog=%2C7%2C10%2C; 084a2_readlog=%2C59219%2C9286%2C59083%2C59218%2C59141%2C59077%2C59238%2C59253%2C59159%2C59720%2C; 084a2_c_stamp=1610157468; 084a2_ipstate=1611468733; 084a2_winduser=XlYBAgYxVlwCXgVfXVIECgoAUQJXBAUAAAcOU1cLCgEEAApdVlQ6; 084a2_ol_offset=3008; 084a2_lastpos=other; 084a2_lastvisit=49%091611468791%09%2Fhack.php%3FH_namexqqiandao' \
   --data-raw 'action=qiandao&qdxq=1&toflower=&tozhufu=' \
   --compressed \
-  --insecure >> $(date +%F).html
+  --insecure >> result.html
