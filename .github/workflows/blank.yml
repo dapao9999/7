@@ -10,7 +10,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: '* * * * *'
+    - cron: '1 16 * * *'
       
 
   # Allows you to run this workflow manually from the Actions tab
