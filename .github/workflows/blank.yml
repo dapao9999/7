@@ -31,4 +31,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: sh qiandao.sh
+      - name: upload
+        uses: action/upload-artifact@v2
+        with:
+          name:  result
+          path:  result.html
 
